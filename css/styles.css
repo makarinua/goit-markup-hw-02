@@ -2,15 +2,15 @@ body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color:#FCFCFC;
+    background-color: #FFFFFF;
     font-weight: 400;
 } 
 
 .menu-logo{
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #4D5AE5;
@@ -31,29 +31,32 @@ body{
     text-align: left;
 }
 
-.main-meny li a {
+.main-meny-li a{
     text-decoration: none;
     color: #2E2F42;
 }
 
-.main-meny li a:hover{
+.main-meny-li a:hover,
+.main-meny-li a:focus{
     color: #404BBF;
 }
 
 .contacts-meny{
     font-family: Roboto;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    font-style: normal;
 }
 
-.contacts-meny li a {
+.contacts-meny-li a {
     text-decoration: none;
     color: #434455;
 }
 
-.contacts-meny li a:hover{
+.contacts-meny-li a:hover,
+.contacts-meny-li a:focus{
     color: #404BBF;
 }
 
@@ -61,43 +64,35 @@ body{
     background-color: #2E2F42;
 }
 
-h1 {
+.hero-image-title {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .hero-button{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
-    width: 169px;
-    height: 56px;
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor:pointer;
 }
 
-.hero-button:hover{
-    width: 169px;
-    height: 56px;
+.hero-button:hover,
+.hero-button:focus{
     background-color: #404BBF;
 }
 
 .benefits{
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
+
 }
 
 .benefits-title{
@@ -110,28 +105,36 @@ h1 {
     color: #2E2F42;
 }
 
+.benefits-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
 .our-team{
     background-color: #F4F4FD;
 }
 
 .our-team-title{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .our-team-teacher{
     background-color: #FFFFFF;
-    width: 264px;
-    height: 380px;
 }
 
 .our-team-teacher-title{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -141,7 +144,7 @@ h1 {
 }
 
 .our-team-teacher-text{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -150,27 +153,28 @@ h1 {
 }
 
 .portfolio{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
 
 .portfolio-title{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .portfolio-text{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -183,10 +187,10 @@ footer{
 }
 
 .logo-footer{
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #4D5AE5;
@@ -194,7 +198,7 @@ footer{
     text-decoration: none;
 }
 
-.logo-footer span{
+.logo-footer-span{
     color: #F4F4FD;
 }
 
