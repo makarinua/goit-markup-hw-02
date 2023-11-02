@@ -23,26 +23,26 @@ body{
 }
 
 .main-meny{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
-.main-meny-li a{
+.main-meny-link{
     text-decoration: none;
     color: #2E2F42;
 }
 
-.main-meny-li a:hover,
-.main-meny-li a:focus{
+.main-meny-link:hover,
+.main-meny-link:focus{
     color: #404BBF;
 }
 
 .contacts-meny{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -65,7 +65,7 @@ body{
 }
 
 .hero-image-title {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -96,10 +96,10 @@ body{
 }
 
 .benefits-title{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
@@ -137,7 +137,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -146,7 +146,7 @@ body{
 .our-team-teacher-text{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
@@ -166,7 +166,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
@@ -176,7 +176,7 @@ body{
 .portfolio-text{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
@@ -203,9 +203,9 @@ footer{
 }
 
 .footer-text{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
