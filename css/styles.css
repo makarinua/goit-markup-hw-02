@@ -50,13 +50,13 @@ body{
     font-style: normal;
 }
 
-.contacts-meny-link{
+.address-link{
     text-decoration: none;
     color: #434455;
 }
 
-.contacts-meny-link:hover,
-.contacts-meny-link:focus{
+.address-link:hover,
+.address-link:focus{
     color: #404BBF;
 }
 
